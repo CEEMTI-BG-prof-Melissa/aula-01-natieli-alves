@@ -1,0 +1,50 @@
+p:fist-of-type:: firts-left
+
+.importante: fist-line{
+  background-color: yellow;
+}
+
+h1: befone{
+  content: "Inícios";
+  color: red;
+}
+
+p.importante::after{
+  contenet: "Fim";
+  color: green;
+}
+
+ul li::marker{
+  color: orange;
+}
+
+::selection{
+  background-color: gray;
+}
+
+input::placeholder{
+  color: purple;
+}
+
+p::befone{
+  content: "Nota";
+  color: blue;
+}
+
+p.destaque::fist-line{
+  background-color: pink;
+}
+
+h1::selection{
+  color: white;
+  background-color: black;
+}
+
+p::first-letter{
+  color: red;
+  font-size: 34px;
+}
+
+input::placeholder{
+  background-color: lightgray;
+}
