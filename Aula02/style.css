@@ -1,3 +1,21 @@
 div{
-  
+  padding: 50px;
+  margin: 10px;
 }
+border.{
+  border: 10px dashed black;
+}
+#bloco01{
+  bachground-color: green;
+}
+
+#bloco02{
+  background-image:url(" ");
+}
+
+#bloco03{
+  background-image:url(" ");
+  blackground-position:(center);
+}
+
+#bloco
