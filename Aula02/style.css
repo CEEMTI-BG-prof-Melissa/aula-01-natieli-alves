@@ -2,20 +2,65 @@ div{
   padding: 50px;
   margin: 10px;
 }
-border.{
+.borda{
   border: 10px dashed black;
 }
-#bloco01{
-  bachground-color: green;
+#bloco1{
+  background-color: red;
 }
-
-#bloco02{
-  background-image:url(" ");
+#bloco2{
+  background-image: url(".jpg");
+  background-repeat: repeat;
 }
-
-#bloco03{
-  background-image:url(" ");
-  blackground-position:(center);
+#bloco3{
+    background-image: url(".jpg");
+    background-repeat: no-repeat;
+    background-position: center;
 }
+#bloco4{
+    background-image: url(".jpg");
+    background-size: cover;
+}
+#bloco5{
+    background-image: url(".jpg");
+background-attachment: fixed;
 
-#bloco
+}
+#bloco6{
+    background-image: url(".jpg");
+    background-repeat: no-repeat;
+    background-origin: padding-box;
+}
+#bloco7{
+    background-image: url(".jpg");
+    background-repeat: no-repeat;
+    background-origin: border-box;
+    background-size: cover;
+}
+#bloco8{
+    background-image: url(".jpg");
+    background-repeat: no-repeat;
+    background-origin: content-box;
+    background-size: cover;
+}
+#bloco9{
+    background-image: url(".jpg");
+    background-repeat: no-repeat;
+    background-clip: padding-box;
+    background-size: cover;
+}
+#bloco10{    
+    background-image: url(".jpg");
+    background-repeat: no-repeat;
+    background-clip: border-box;
+    background-size: cover;
+}
+#bloco11{
+  background-image: url(".jpg");
+  background-repeat: no-repeat;
+  background-clip: content-box;
+  background-size: cover;
+}
+#bloco12{
+  background: #2c5c42 url("GOnQSVmXkAEztOs.jpg") no-repeat right top;
+}
